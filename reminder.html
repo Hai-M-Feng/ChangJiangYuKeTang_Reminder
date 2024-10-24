@@ -1,0 +1,31 @@
+<!-- reminder.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>长江提醒</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      animation: flash 1s infinite;
+    }
+    @keyframes flash {
+      0% { background-color: red; }
+      50% { background-color: blue; }
+      100% { background-color: red; }
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>发题了！</h1>
+  <p>老师发布了新的问题</p>
+  <button id="closeButton">知道了</button>
+  <script src="reminder.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>关于</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 100px; /* 设置宽度 */
+            height: 100px; /* 设置高度 */
+            box-sizing: border-box; /* 确保内边距和边框不会增加总宽度和高度 */
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            flex-shrink: 0; /* 确保头部不被压缩 */
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .content {
+            padding: 10px;
+            flex-grow: 1; /* 内容区域占据剩余空间 */
+            overflow-y: auto; /* 如果内容超出高度，显示滚动条 */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>关于</h2>
+        <p>作者：</p>
+	<p>HaiMFeng</p>
+	<p></p>
+        <p>协助编写：</p>
+	<p>通义千问</p>
+	<p></p>
+        <p>版本：0.2</p>
+    </div>
+</body>
+</html>
